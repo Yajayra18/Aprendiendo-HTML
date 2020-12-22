@@ -1,0 +1,56 @@
+<!-- Existen Imágenes Lossless y Lossy  -->
+
+<!-- Lossy: JPG tiene muchos colores y se puede comprimir puede perder peso-->
+
+<!-- Lossless: no pierde calidad; SVG, PNG8, PNG 24 (foto quita fondo).-->
+
+<!-- La imagenes suelen ser muy pesados, es necesario optimizarlo, el tamaño OPTIMO es 70KB, existen 2 paginas Tiny PNG(baja peso y no calidad) y Verexif(quita metadatos(fecha de toma, lugar de toma,etc)) -->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"/>
+  <meta name= "description" content="Esta página te mostrará fotos de gatos"> 
+  <meta name="robots" content="index, follow"/>  <!-- source ubicación del video o URL -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+  <title>Imagen y Video</title>
+  <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+  <main>
+    <section>
+      <figure> <!-- Etiqueta contenedora de img -->
+
+        <img src="" alt=""> <!-- Etiqueta para cargar imagen en src se puede poner una imagen de mi compu o un URL, alt contiene una descripción de la imagen si no aparece la imagen figurará cuando la imagen no cargue y ayuda para temas de accebilidad a personas con problemas visuales-->
+        
+        <figcaption>  Descripción de la imagen</figcaption><!-- descripción de pie -->
+
+      </figure>
+    </section>
+      <video controls preload src="saludoOnline.mp4#t=5,10"> 
+
+        <source src="saludoOnline.mp4" /> 
+        <source src="saludoOnline.mp4" />
+
+      </video> 
+      
+      
+      <!-- src ubicación del video o URL -->
+
+      <!-- controls permite observar los bonotnes de play, pause, volumen, ampliación de pantalla -->
+
+      <!-- preload, carga el video par aque cuando le presionemos play inicie sin problema -->
+
+      <!-- el video se puede reproducir en un minuto y segundo específico, eso se hace dentro de src al final. #t=5,10  (inicia en el minuto 5 y pausa en el minuto 10)-->
+
+      <!-- source nos ayuda a colocar videos con diferentes formatos, cosa que si no carga un formato imediatamente busca el que funcione-->
+
+
+
+
+
+  </main>
+  
+</body>
+</html>
